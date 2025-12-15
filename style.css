@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(160deg, #0f0f1a, #1a1a2e, #16213e);
+    color: #f1f1f1;
+    padding: 50px 20px;
+}
+
+/* TÍTULOS */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #cfcfcf;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* LISTA BÁSICA, MAS BONITA */
+.lista-frases {
+    max-width: 800px;
+    margin: 0 auto;
+    list-style: disc;
+    padding-left: 25px;
+}
+
+.lista-frases li {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 12px;
+    color: #eaeaea;
+}
+
+/* melhora visual das bolinhas */
+.lista-frases li::marker {
+    color: #ff4d4d;
+}
