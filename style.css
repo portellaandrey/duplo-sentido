@@ -88,3 +88,51 @@ h2 {
 .lista-2 li::marker {
     color: #ff4d4d;
 }
+
+/* ============================= */
+/* OVERLAY DE SITE EM MANUTENÇÃO */
+/* ============================= */
+
+.maintenance-overlay {
+    position: fixed;
+    inset: 0;
+    background: linear-gradient(160deg, #0f0f1a, #1a1a2e, #16213e);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999999; /* fica acima de tudo */
+}
+
+/* Caixa central */
+.maintenance-box {
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 40px;
+    border-radius: 18px;
+    max-width: 420px;
+    width: 90%;
+    text-align: center;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+}
+
+/* Título */
+.maintenance-box h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+/* Texto */
+.maintenance-box p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #dddddd;
+}
+
+/* Texto menor */
+.maintenance-box .small {
+    margin-top: 12px;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
