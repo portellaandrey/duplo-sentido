@@ -4,19 +4,31 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Frases de Duplo Sentido 😏</title>
-
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <div class="container">
-    <h1>Frases de Duplo Sentido </h1>
+    <h1>Frases de Duplo Sentido</h1>
 
     <div class="phrase-box">
       <p id="phrase" class="phrase">Clique no botão 😈</p>
     </div>
 
+    <!-- BOTÃO PRINCIPAL -->
     <button id="btn">Aperta aqui no Botãozinho</button>
+
+    <!-- OPÇÕES (EMBAIXO DO BOTÃO) -->
+    <div id="choiceBox" class="choice-box hidden">
+      <button class="accept">Aceito 😏</button>
+      <button class="reject">Pra láaa 🙄</button>
+    </div>
+
+    <!-- RESULTADO -->
+    <div id="result" class="result hidden">
+      <p class="result-text"> 😈</p>
+      <img src="img/0e65569a-6fb0-4d83-b281-743700e7f8dc.webp" alt="gif engraçado">
+    </div>
   </div>
 
   <script src="script.js"></script>
