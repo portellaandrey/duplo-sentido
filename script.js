@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
   acceptBtn.addEventListener("click", () => {
     choiceBox.classList.add("hidden");
 
-    phraseEl.textContent = "SEU BAITOLAAA 😏🔥";
+    phraseEl.textContent = "HMMMMMMMMM 😏🔥";
     result.classList.remove("hidden");
   });
 
